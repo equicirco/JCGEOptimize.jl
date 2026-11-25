@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: JCGEOptimize.jl - Policy design and parameter optimization for JCGE models.
+message: >-
+  v0.0.1 - Unreleased.
+type: software
+authors:
+  - given-names: Riccardo
+    family-names: Boero
+    email: ribo@nilu.no
+    orcid: 'https://orcid.org/0000-0002-7468-9096'
+    affiliation: NILU
+repository-code: 'https://github.com/equicirco/JCGEOptimize.jl'
+abstract: >-
+  Policy design and parameter optimization for JCGE models, supporting multiple
+  objectives, constraints, and interchangeable optimization backends.
+keywords:
+  - Computable General Equilibrium
+  - CGE
+  - Economic Modeling
+  - Julia Language
+  - Policy Design
+  - Numerical Optimization
+  - Multi-objective Optimization
+license: Apache-2.0

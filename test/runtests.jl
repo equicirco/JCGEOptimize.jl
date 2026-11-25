@@ -14,3 +14,7 @@ using TOML
     @test occursin("v$(version) -", read(joinpath(root, "CITATION.cff"), String))
     @test occursin("## [$(version)]", read(joinpath(root, "CHANGELOG.md"), String))
 end
+
+include("evaluation.jl")
+include("search.jl")
+include("metaheuristics.jl")

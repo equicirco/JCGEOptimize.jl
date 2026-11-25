@@ -4,10 +4,19 @@
 Optimization around JCGE equilibrium models for policy design and parameter
 optimization, with multiple objectives, constraints, and interchangeable backends.
 
-The architecture delegates equilibrium calculations to JCGERuntime and reporting
-to JCGEOutput. Version 0.0.1 establishes the package scaffold; optimization
-interfaces and backend integrations are under development.
+Model evaluators delegate equilibrium calculations to JCGERuntime and return
+model outcomes to this package. Search backends share decision, objective,
+constraint, validation, and evaluation-history interfaces.
 """
 module JCGEOptimize
+
+export DecisionVariable, Objective, OutcomeConstraint, OptimizationProblem
+export EvaluationRecord, evaluate, evaluation_rows
+export AbstractSearchBackend, GridSearch, MetaheuristicsBackend
+export OptimizationResult, optimize
+
+include("problems.jl")
+include("evaluation.jl")
+include("search.jl")
 
 end # module JCGEOptimize

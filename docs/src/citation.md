@@ -1,9 +1,9 @@
 # Citation
 
-For the unreleased package, cite the source repository:
+For the package, cite the source repository:
 
 Boero, R. *JCGEOptimize.jl - Policy design and parameter optimization for JCGE
-models.* [Software, unreleased].
+models.* [Software], 2026.
 [Source code](https://github.com/equicirco/JCGEOptimize.jl).
 
 Machine-readable metadata are provided in `CITATION.cff`. A version DOI can be

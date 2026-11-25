@@ -5,10 +5,12 @@ JCGEOptimize is the optional optimization component of the
 parameters according to user-defined objectives and constraints, with each
 candidate evaluated through a CGE model.
 
-Version 0.0.1 is **unreleased** and provides the package scaffold. Optimization
-interfaces and backend integrations are under development.
+Version 0.1.0 supports bounded continuous decisions,
+single-objective and multi-objective searches, outcome constraints, and complete
+evaluation histories. Grid search is available directly; importing
+Metaheuristics.jl activates the optional heuristic-search backend.
 
 - [Design](@ref) describes the agreed architecture and package responsibilities.
 - [Usage](@ref) covers loading the development package, testing, and documentation.
-- [API](@ref) documents the current source module.
+- [API](@ref) documents problem definitions, evaluation records, and search backends.
 - [Citation](@ref) provides citation information.

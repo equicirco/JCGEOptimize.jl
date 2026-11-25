@@ -3,6 +3,7 @@ title: JCGEOptimize.jl - Policy design and parameter optimization for JCGE model
 message: >-
   v0.1.0 - Initial release.
 type: software
+doi: 10.5281/zenodo.24544408
 authors:
   - given-names: Riccardo
     family-names: Boero

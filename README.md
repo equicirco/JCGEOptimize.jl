@@ -55,6 +55,7 @@ URL: https://JCGE.org
 If you use this package, please cite:
 
 Boero, R. *JCGEOptimize.jl - Policy design and parameter optimization for JCGE models.* [software], 2026.
+DOI: 10.5281/zenodo.24544408
 URL: https://optimize.jcge.org
 SourceCode: https://github.com/equicirco/JCGEOptimize.jl
 
@@ -63,6 +64,7 @@ SourceCode: https://github.com/equicirco/JCGEOptimize.jl
   title  = {JCGEOptimize.jl - Policy design and parameter optimization for JCGE models.},
   author = {Boero, Riccardo},
   year   = {2026},
+  doi    = {10.5281/zenodo.24544408},
   url    = {https://optimize.jcge.org}
 }
 ```

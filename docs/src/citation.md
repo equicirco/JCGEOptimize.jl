@@ -1,13 +1,14 @@
 # Citation
 
-For the package, cite the source repository:
+For the package, cite the archived software:
 
 Boero, R. *JCGEOptimize.jl - Policy design and parameter optimization for JCGE
 models.* [Software], 2026.
+[DOI: 10.5281/zenodo.24544408](https://doi.org/10.5281/zenodo.24544408).
 [Source code](https://github.com/equicirco/JCGEOptimize.jl).
 
-Machine-readable metadata are provided in `CITATION.cff`. A version DOI can be
-used after a release has been archived.
+Machine-readable metadata are provided in `CITATION.cff`. The DOI above covers
+all versions; use the version DOI for a specific tagged release when available.
 
 For the JCGE framework, cite:
 

@@ -67,9 +67,4 @@ SourceCode: https://github.com/equicirco/JCGEOptimize.jl
 }
 ```
 
-Machine-readable citation metadata are provided in [CITATION.cff](CITATION.cff).
-The package DOI will be added later.
-
-## License
-
-JCGEOptimize is licensed under the [Apache License 2.0](LICENSE).
+If you use a specific tagged release, please cite the version DOI assigned on Zenodo for that release (preferred for exact reproducibility).

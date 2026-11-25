@@ -19,6 +19,7 @@ makedocs(
 if get(ENV, "GITHUB_EVENT_NAME", "") != "pull_request"
     deploydocs(
         repo = "github.com/equicirco/JCGEOptimize.jl",
+        cname = "optimize.jcge.org",
         devbranch = "main",
         versions = ["stable" => "v^", "v#.#", "dev" => "dev"],
     )

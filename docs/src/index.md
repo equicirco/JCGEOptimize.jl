@@ -1,5 +1,12 @@
 # JCGEOptimize
 
+```@raw html
+<picture>
+  <source srcset="assets/jcge_optimize_logo_dark.png" media="(prefers-color-scheme: dark)">
+  <img src="assets/jcge_optimize_logo_light.png" alt="JCGEOptimize" style="max-width: 200px; height: auto;">
+</picture>
+```
+
 JCGEOptimize is the optional optimization component of the
 [JCGE](https://jcge.org) framework. Its purpose is to choose policies or model
 parameters according to user-defined objectives and constraints, with each

@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/src/assets/jcge_optimize_logo_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/src/assets/jcge_optimize_logo_light.png">
+  <img alt="JCGE Optimize logo" src="docs/src/assets/jcge_optimize_logo_light.png" height="150">
+</picture>
+
 # JCGEOptimize
 
 ## What is a CGE?

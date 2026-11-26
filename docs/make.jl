@@ -6,6 +6,11 @@ makedocs(
     modules = [JCGEOptimize],
     format = Documenter.HTML(
         prettyurls = get(ENV, "CI", "false") == "true",
+        assets = [
+            "assets/favicon.ico",
+            "assets/logo.css",
+            "assets/logo-theme.js",
+        ],
     ),
     pages = [
         "Home" => "index.md",
